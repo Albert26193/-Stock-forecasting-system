@@ -1,0 +1,2 @@
+neo4j-admin load --from=graph.db.dump --database=graph.db --force  # 数据导入
+neo4j start # 启动
