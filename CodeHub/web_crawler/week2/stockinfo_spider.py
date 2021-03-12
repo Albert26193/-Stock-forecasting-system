@@ -36,7 +36,7 @@ def getStockLst(html,stocklst):
                 urlstg=tag_li_lst[j].contents[0].attrs['href']
                 quote=urlstg.split('.html')[0][-8:].upper()
                 stocklst.append(quote)
-               #print("\r{}/{}".format(j,len(tag_li_lst)))
+                #print("\r{}/{}".format(j,len(tag_li_lst)))
             except:
                 continue
 
